@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: serif;
+}
+
+.loginbox{
+	width: 400px;
+	height: 550px;
+	background-color: rgba(204, 232, 255, 0.4);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	border-radius: 15px;
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	margin-top: 5px;
+	top: -40px;
+	left:calc(50% - 50px)
+}
+
+h1{
+	margin-top: 60px;
+	text-align: center;
+	color: #AD0101;
+}
+
+.input{
+	width: 300px;
+	border:none;
+	outline: none;
+	background: transparent;
+	border-bottom: 2px solid #183243;
+	border-radius: 0px 0px 10px 10px;
+	margin-bottom: 20px;
+	height: 40px;
+	font-weight: bold;
+}
+
+.input::placeholder{
+	color: #173142;
+}
+
+.textbox{
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.middleText{
+	margin-bottom: 30px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.middleText input{
+	width: 15px;
+	float: left;
+	margin-top: 3px;
+	margin-left: 50px;
+	margin-bottom: 400px;
+}
+
+.middle-text p{
+	color:#93CE92;
+	float: left;
+	padding: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+.forget{
+	text-decoration: none;
+	color: #038293;
+	float: right;
+	margin: -18px;
+	margin-right: 10px;
+}
+
+.loginbtn{
+	width: 200px;
+	height: 40px;
+	font-size: 30px;
+	font-weight: bold;
+	background:rgba(29, 45, 96, 0.8);
+	color:white;
+	border:none;
+	outline: none;
+	border-radius: 0px 20px 0px 20px;
+	display: block;
+	margin: auto;
+	transition: 2s;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.loginbtn:hover{
+	border-radius: 20px 0px 20px 0px;
+	background:white;
+	color:#1D2D60;
+}
+
+.loginbtn:focus{
+	outline: none;
+	border:none;
+}
+
+.loginbtn a{
+	text-decoration: none;
+	line-height: 20px;
+}
+
+
+.createbtn{
+	width: 200px;
+	height: 40px;
+	font-size: 30px;
+	font-weight: bold;
+	background:white;
+	color:#1D2D60;
+	border:none;
+	outline: none; 
+	border-radius: 20px 0px 20px 0px;
+	display: block;
+	margin: auto;
+	transition: 2s;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.createbtn:hover{
+	border-radius: 0px 20px 0px 20px;
+	background:rgba(29, 45, 96, 0.8);
+	color:white;
+}
+
+.createbtn:focus{
+	outline: none;
+	border:none;
+}
+
+.createbtn a{
+	text-decoration: none;
+}
+
+.account{
+	text-decoration: none;
+	color: rgba(59, 158, 186, 20);
+}
+
+.socials{
+	margin-top: 5%;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.socials a{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	border:2px solid white;
+	border-radius: 50%;
+	margin: 0px 5px;
+	background:#2F66E5;
+	color: white;
+		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.socials a i{
+	padding:5px;
+}
+
